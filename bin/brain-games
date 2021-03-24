@@ -1,5 +1,7 @@
 #!/usr/bin/php7.4
-
 <?php
+  echo 'Welcome to the Brain Game!', PHP_EOL;
+  echo 'May I have your name? ';
 
-    echo "Welcome to the Brain Games!\n";
+  $name = trim(fgets(STDIN));
+  echo "Hello, {$name}!", PHP_EOL;

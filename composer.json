@@ -8,8 +8,10 @@
         }
     ],
     "license": "proprietary",
-    "require": {},
     "bin": [
         "bin/brain-games"
-    ]
+    ],
+    "autoload": {
+        "files": ["php-cli-tools/lib/cli/cli.php"]
+    }
 }
